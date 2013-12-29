@@ -1,6 +1,16 @@
 ﻿function fetchGfy(info, tab) {	
 	var text = info.selectionText;
-	var url = 'http://gfycat.com/fetch/' + text;
+	
+  if(info.srcUrl)
+  {
+    text = info.srcUrl;
+  }
+  else if(info.linkUrl)
+  {
+    text = info.linkUrl;
+  }
+
+  var url = 'http://gfycat.com/fetch/' + text;
 	chrome.tabs.create({
 		'url':url,
 	});
