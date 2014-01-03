@@ -1,8 +1,8 @@
 ﻿{
   "manifest_version": 2,
   "name": "GfyFetcher",
-  "description": "This extension allows you to right click on gif links and open them as gfys via Gfycat.",
-  "version": "0.1.1",
+  "description": "This extension allows you to right click on gif links and open them as HTML5 video gfys via Gfycat.",
+  "version": "0.1.2",
   "background": { 
     "page":"src/bg.html"
     },
