@@ -9,4 +9,4 @@ function getUrl(info) {
   return info['srcUrl'] || info['linkUrl'];
 }
 
-chrome.contextMenus.create({"title": "Fetch Gfycat of Link Address", "contexts":["image", "link"], "onclick": fetchGfy});
+chrome.contextMenus.create({"title": "Fetch Gfycat of Image", "contexts":["image", "link"], "onclick": fetchGfy});
